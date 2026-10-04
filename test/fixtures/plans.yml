@@ -1,15 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  stripe_price_id: MyString
-  amount_cents: 1
-  interval: MyString
-  active: false
+  name: Starter
+  stripe_price_id: price_fixture_starter
+  amount_cents: 999
+  interval: month
+  active: true
 
 two:
-  name: MyString
-  stripe_price_id: MyString
-  amount_cents: 1
-  interval: MyString
+  name: Pro
+  stripe_price_id: price_fixture_pro
+  amount_cents: 1999
+  interval: month
   active: false

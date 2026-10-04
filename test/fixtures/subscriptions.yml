@@ -3,11 +3,11 @@
 one:
   user: one
   plan: one
-  status: MyString
-  stripe_subscription_id: MyString
+  status: pending
+  stripe_subscription_id: 
 
 two:
   user: two
   plan: two
-  status: MyString
-  stripe_subscription_id: MyString
+  status: active
+  stripe_subscription_id: sub_fixture_2
