@@ -7,3 +7,17 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Plan.find_or_create_by!(name: "Starter") do |p|
+  p.stripe_price_id = "price_test_starter"
+  p.amount_cents = 999
+  p.interval = "month"
+  p.active = true
+end
+
+Plan.find_or_create_by!(name: "Pro") do |p|
+  p.stripe_price_id = "price_test_pro"
+  p.amount_cents = 1999
+  p.interval = "month"
+  p.active = true
+end
