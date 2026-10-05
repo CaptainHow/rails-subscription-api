@@ -9,14 +9,14 @@
 #   end
 
 Plan.find_or_create_by!(name: "Starter") do |p|
-  p.stripe_price_id = "price_test_starter"
+  p.stripe_price_id = "price_1UMzYJEGIZlPZbHVDe7jM82G"
   p.amount_cents = 999
   p.interval = "month"
   p.active = true
 end
 
 Plan.find_or_create_by!(name: "Pro") do |p|
-  p.stripe_price_id = "price_test_pro"
+  p.stripe_price_id = "price_1UMzYYEGIZlPZbHVvcLhR6wO"
   p.amount_cents = 1999
   p.interval = "month"
   p.active = true
