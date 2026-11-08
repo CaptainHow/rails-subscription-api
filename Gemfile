@@ -49,6 +49,6 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "stripe", "~> 20.0"
+gem "stripe", "~> 20.1"
 
 gem "dotenv-rails", groups: [:development, :test]
